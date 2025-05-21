@@ -1,4 +1,4 @@
-from cicd_python.app.convertisseur import convertir_minutes_heures
+from app.convertisseur import convertir_minutes_heures
  
 def run_tests():
     assert convertir_minutes_heures(1) == ("+", 0, 1)
