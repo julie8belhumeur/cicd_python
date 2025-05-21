@@ -26,4 +26,4 @@ jobs:
 
     - name: Exécuter les tests
       run: |
-        python -m unittest discover -s cicd_python/tests
+        python -m unittest discover -s tests
